@@ -23,8 +23,8 @@ function currentLine(line) {
     var i = 0;
     var arr = [];
     for (i; i<line.length; i++) {
-      arr[i] = i + ". " + line[i]+ ", ";
+      arr[i] = ( " " + (i+1) + ". " + line[i]);
     }
-    return ("The Line is currently: " + arr);
+    return ("The Line is currently:" + arr);
   }
 }
