@@ -21,7 +21,7 @@ function currentLine(line) {
     return "The line is currently empty.";
   } else {
     var i = 0;
-    var String arr = [];
+    String arr = [];
     for (i; i<line.length; i++) {
       arr[i] = (" " + (i+1) + ". " + line[i]);
     }
