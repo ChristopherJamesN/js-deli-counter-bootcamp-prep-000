@@ -21,9 +21,9 @@ function currentLine(line) {
     return "The line is currently empty.";
   } else {
     var i = 0;
-    var arr = [];
+    var arr = string[];
     for (i; i<line.length; i++) {
-      arr[i] = ( " " + (i+1) + ". " + line[i]);
+      arr[i] = (" " + (i+1) + ". " + line[i]);
     }
     return ("The Line is currently:" + arr);
   }
