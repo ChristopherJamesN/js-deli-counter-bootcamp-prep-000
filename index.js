@@ -25,6 +25,6 @@ function currentLine(line) {
     for (i; i<line.length; i++) {
       arr[i] = (" " + (i+1) + ". " + line[i]);
     }
-    return ("The Line is currently:" + arr);
+    return ("The line is currently:" + arr);
   }
 }
